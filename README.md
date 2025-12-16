@@ -1,11 +1,4 @@
 # Machine-Learning
 
-# Project 1
+// unifinished
 
-# Project 2 
-
-# Project 3
-
-# Project 4
-
-# Project 5
