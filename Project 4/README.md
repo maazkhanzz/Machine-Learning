@@ -30,5 +30,51 @@ I compare three clustering approaches:
 - **Hierarchical:** Ward linkage with `n_clusters = 5`
 - **DBSCAN:** tuned with `eps = 1.3`, `min_samples = 20`
 
-## Results (add figures below)
-> I will add plots here (Elbow, Silhouette, PCA cluster visualizations, Dendrogram, DBSCAN noise plot).
+📊 Cluster Evaluation Metrics 
+
+1. Elbow Method (K-Means)
+
+The elbow plot illustrates how the Sum of Squared Errors (SSE) decreases as the number of clusters increases.
+Although no sharp elbow is present, the curve begins to flatten around K = 5, indicating diminishing improvements beyond this point.
+
+![Elbow Method](figures/elbow.png)
+
+
+2. Silhouette Scores
+
+Silhouette scores measure how well-separated the clusters are.
+While the highest score occurs at K = 2, selecting K = 5 provides a better balance between cluster separation and interpretability.
+
+![Silhouette Scores](figures/silhouette.png)
+
+
+3. 📌 K-Means Results
+K-Means with K = 5 (PCA Projection)
+
+This PCA visualization shows the K-Means clustering result in two dimensions.
+Clusters appear compact and reasonably well-separated, representing different rental market segments.
+
+![K-Means PCA](figures/kmeans_pca.png)
+
+
+4. 🌳 Hierarchical Clustering (Ward Linkage, PCA Projection)
+
+Hierarchical clustering using Ward linkage produces cluster groupings similar to K-Means, though slightly less balanced.
+The PCA projection confirms consistent structure across methods.
+
+![Hierarchical PCA](figures/hierarchical_pca.png)
+
+
+5. Truncated Dendrogram (Ward Linkage)
+
+The truncated dendrogram highlights large merges near the top of the hierarchy, suggesting approximately 4–6 meaningful clusters, which supports choosing five clusters.
+
+![Dendrogram](figures/dendrogram.png)
+
+6. 🔍 DBSCAN (PCA Projection) Results
+
+DBSCAN identifies dense clusters and explicitly labels outliers as noise.
+Noise points largely correspond to extremely expensive, large, or geographically isolated listings.
+
+![DBSCAN PCA](figures/dbscan_pca.png)
+
