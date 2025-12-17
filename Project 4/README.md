@@ -79,3 +79,34 @@ Noise points largely correspond to extremely expensive, large, or geographically
 ![DBSCAN PCA](figures/dbscan_pca.png)
 
 
+## Summary
+K-Means with **K = 5** produced the most interpretable structure for this dataset.  
+Hierarchical clustering supported similar groupings, while DBSCAN was useful for highlighting outliers and rare listings.
+
+---
+
+## How to Run / Reproduce Results
+
+### Requirements
+- Python 3.8 or higher
+- Libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`
+
+### Dataset
+
+Download the dataset from UCI:
+https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified
+
+Use the 10,000-row subset named apt_10k.csv
+
+Place apt_10k.csv inside the Project 4 directory
+
+### Setup
+
+1. Clone the repository and enter Project 4:
+```bash
+git clone https://github.com/maazkhanzz/Machine-Learning.git
+cd Machine-Learning/Project\ 4
+
+
+
+
