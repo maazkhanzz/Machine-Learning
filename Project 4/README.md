@@ -30,7 +30,7 @@ I compare three clustering approaches:
 - **Hierarchical:** Ward linkage with `n_clusters = 5`
 - **DBSCAN:** tuned with `eps = 1.3`, `min_samples = 20`
 
-📊 Cluster Evaluation Metrics 
+## 📊 Cluster Evaluation Metrics 
 
 1. Elbow Method (K-Means)
 
@@ -77,4 +77,5 @@ DBSCAN identifies dense clusters and explicitly labels outliers as noise.
 Noise points largely correspond to extremely expensive, large, or geographically isolated listings.
 
 ![DBSCAN PCA](figures/dbscan_pca.png)
+
 
