@@ -39,12 +39,15 @@ Sample MNIST Digits
 The figure below shows example handwritten digits from the MNIST dataset.
 Visualizing these samples helps verify the dataset and provides intuition for the classification task.
 
+![Sample MNIST Digits](figures/sample_dig.png)
+
 
 ### Model Predictions
 
 After training, the neural network predicts labels for unseen test images.
 The figure below shows several test samples along with their predicted digit labels, demonstrating the model’s classification performance.
 
+![Model Predictions](figures/prediction.png)
 
 ### Summary
 The neural network successfully learns to classify handwritten digits using the MNIST dataset.
@@ -58,18 +61,11 @@ Python 3.8 or higher
 Libraries: numpy, matplotlib, tensorflow
 
 ### Setup
-Clone the repository and enter Project 3:
-bash
-Copy code
+
+1. Clone the repository and enter Project 3:
+```bash
 git clone https://github.com/maazkhanzz/Machine-Learning.git
 cd Machine-Learning/Project\ 3
 
-### Install dependencies:
 
-bash
-Copy code
-pip install numpy matplotlib tensorflow
-Run
-bash
-Copy code
-python NeuralNetworksKeras.py
+
