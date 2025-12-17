@@ -38,7 +38,7 @@ The decision tree classifier achieves strong accuracy on the test dataset.
 The visualization of the tree provides insight into feature importance and decision paths used for classification.
 
 
-![Decision Tree Visualization](figures/decision_tree.png)
+![Decision Tree Visualization](FIGURES/decision_tree.png)
 
 ### Accuracy vs Tree Depth
 The model is trained using different maximum tree depths to study underfitting and overfitting.
@@ -70,3 +70,4 @@ Libraries: scikit-learn, matplotlib
 ```bash
 git clone https://github.com/maazkhanzz/Machine-Learning.git
 cd Machine-Learning/Project\ 1
+
